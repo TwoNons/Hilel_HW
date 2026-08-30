@@ -81,3 +81,5 @@ second = first + 2
 third = (first + second)/2
 sum = first + second + third
 print(sum)
+
+'Мой первый push на GIT'
