@@ -55,7 +55,7 @@ class Trapezoid(Figure):
 
 figure = [Parallelogram(3, 4, 6), Triangle(6, 6, 7, 8), Trapezoid(5, 6, 7, 8, 2)]
 
-for i in figure:
-    print(f"Площа {type(i).__name__} дорiвнює {i.get_square()}")
-    print(f"Периметр {type(i).__name__} дорiвнює {i.get_perimeter()}")
-    print()
+# for i in figure:
+#     print(f"Площа {type(i).__name__} дорiвнює {i.get_square()}")
+#     print(f"Периметр {type(i).__name__} дорiвнює {i.get_perimeter()}")
+#     print()
