@@ -1,0 +1,21 @@
+2026-11-18 22:42:05 INFO: POST http://127.0.0.1:8080/auth | status: 200
+2026-11-18 22:42:05 INFO: Authentication successful; access token received.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=price | limit=5
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 5 cars returned, sorted by price.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=year | limit=10
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 10 cars returned, sorted by year.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=engine_volume | limit=3
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 3 cars returned, sorted by engine_volume.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=brand | limit=7
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 7 cars returned, sorted by brand.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=None | limit=5
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 5 cars returned, sorted by brand.
+2026-11-18 22:42:05 INFO: GET http://127.0.0.1:8080/cars | sort_by=price | limit=10
+2026-11-18 22:42:05 INFO: Response status: 200
+2026-11-18 22:42:05 INFO: Test passed: 10 cars returned, sorted by price.
+2026-11-18 22:42:05 INFO: Session closed.
